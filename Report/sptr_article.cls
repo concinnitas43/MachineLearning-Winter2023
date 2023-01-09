@@ -21,33 +21,15 @@
 
 % Paper size
 \RequirePackage[a4paper, total={5.5in, 9in}]{geometry}
-\newcommand{\ShortArticleName}[1]{\newcommand{\shortname}{#1}}
-\newcommand{\FullArticleName}[2]{\newcommand{\metadata}{#2} \title{\textbf{#1} \\ \vspace{0.5em} \large #2}}
-
-% Header & footer
-\RequirePackage[]{fancyhdr}
-\fancyhead{} % clear all header fields
-\fancyhead[R]{\small \metadata}
-\fancyhead[L]{\textbf{\shortname}}
-\fancyfoot[C]{\thepage}
-
-\pagestyle{fancy}
 
 % Font Related
 % \usepackage{mlmodern} % Modern CMU
 % \usepackage[T1]{fontenc}
 
-\RequirePackage{times}
-\RequirePackage[T1]{fontenc}
-
-\RequirePackage[english]{babel}
-\RequirePackage{csquotes}
-\RequirePackage{fontspec}
 %\usepackage{xeCJK}
 %\usepackage{kotex}
 %\setmainhangulfont{NanumMyeongjo}
 
-\RequirePackage{biblatex}
 
 \RequirePackage{titlesec} % Custom Section
 
